@@ -38,7 +38,8 @@ General
 
 ## Author
 
-- [Peter Ughasi](https://www.github.com/tynist) || Linkedin: https://www.linkedin.com/in/peter-ughasi-mypage
+- [Peter Ughasi](https://www.github.com/tynist)
+- [Linkedin](https://www.linkedin.com/in/peter-ughasi-mypage)
 
 
 ## Acknowledgements
