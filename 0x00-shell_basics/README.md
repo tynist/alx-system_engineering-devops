@@ -10,7 +10,13 @@ This is part of the  Full Stack Software Engineer program organized by Alx  Afri
 
 ### Bash
 
-* [0x00. Shell, basics](https://github.com/tynist/alx-system_engineering-devops/tree/master/0x00-shell_basics)
+* [0x00. Shell, basics](https://github.com/tynist/alx-system_engineering-devops/blob/master/0x00-shell_basics/0-current_working_directory)
+* [0x00. Shell, basics](https://github.com/tynist/alx-system_engineering-devops/blob/master/0x00-shell_basics/0-current_working_directory)
+* [0x00. Shell, basics](https://github.com/tynist/alx-system_engineering-devops/blob/master/0x00-shell_basics/0-current_working_directory)
+* [0x00. Shell, basics](https://github.com/tynist/alx-system_engineering-devops/blob/master/0x00-shell_basics/0-current_working_directory)
+* [0x00. Shell, basics](https://github.com/tynist/alx-system_engineering-devops/blob/master/0x00-shell_basics/0-current_working_directory)
+* [0x00. Shell, basics](https://github.com/tynist/alx-system_engineering-devops/blob/master/0x00-shell_basics/0-current_working_directory)
+* [0x00. Shell, basics](https://github.com/tynist/alx-system_engineering-devops/blob/master/0x00-shell_basics/0-current_working_directory)
 
 
 
