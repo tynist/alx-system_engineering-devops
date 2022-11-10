@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# This script displays Best School 10 times, but for the 9th iteration,
-# displays Best School and then Hi on a new line.
+# Displays "Best School" 10 times using a while loop.
+# On the 9th iteration, displays "Best School" then Hi on a new line.
 i=0
 while [ $i -lt 10 ]
 do
@@ -8,7 +8,6 @@ do
     then
         echo 'Hi'
     fi
-
     echo 'Best School'
     ((i++))
 done
