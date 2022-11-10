@@ -8,11 +8,10 @@ do
         echo "FizzBuzz"
     elif (( nums % 3 == 0 ))
     then
-        echo 'Fizz'
+        echo "Fizz"
     elif (( nums % 5 == 0 )
     then
-        echo 'Buzz'
-    
+        echo "Buzz"
     else
         echo "$nums"
     fi
