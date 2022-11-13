@@ -443,6 +443,7 @@ Displays manage_my_process restarted
 Displays Usage: manage_my_process {start|stop|restart} if any other argument or no argument is passed
 Note that this init script is far from being perfect (but good enough for the sake of manipulating process and PID file), for example we do not handle the case where we check if a process is already running when doing ./101-manage_my_process start, in our case it will simply create a new process instead of saying that it is already started.
 
+```
 sylvain@ubuntu$ sudo ./101-manage_my_process
 Usage: manage_my_process {start|stop|restart}
 sylvain@ubuntu$ sudo ./101-manage_my_process start
@@ -472,24 +473,25 @@ I am alive!
 I am alive!
 I am alive!
 ^C
-sylvain@ubuntu$ 
-Repo:
+sylvain@ubuntu$
+```
+**Repo:**
+-  GitHub repository: `alx-system_engineering-devops`
+-  Directory: `0x05-processes_and_signals`
+-  File: `101-manage_my_process, manage_my_process`
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x05-processes_and_signals
-File: 101-manage_my_process, manage_my_process
-    
-11. Zombie
 
-Read what a zombie process is.
+### 11\. Zombie
+Read `what a zombie process is`.
 
 Write a C program that creates 5 zombie processes.
 
 Requirements:
 
-For every zombie process created, it displays Zombie process created, PID: ZOMBIE_PID
-Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+For every zombie process created, it displays `Zombie process created, PID: ZOMBIE_PID`
+Your code should use the Betty style. It will be checked using `betty-style.pl` and `betty-doc.pl`
 When your code is done creating the parent process and the zombies, use the function bellow
+```
 int infinite_while(void)
 {
     while (1)
@@ -498,10 +500,11 @@ int infinite_while(void)
     }
     return (0);
 }
+```
 Example:
 
 Terminal #0
-
+```
 sylvain@ubuntu$ gcc 102-zombie.c -o zombie
 sylvain@ubuntu$ ./zombie 
 Zombie process created, PID: 13527
@@ -511,8 +514,9 @@ Zombie process created, PID: 13530
 Zombie process created, PID: 13531
 ^C
 sylvain@ubuntu$
+```
 Terminal #1
-
+```
 sylvain@ubuntu$ ps aux | grep -e 'Z+.*<defunct>'
 sylvain  13527  0.0  0.0      0     0 pts/0    Z+   01:19   0:00 [zombie] <defunct>
 sylvain  13528  0.0  0.0      0     0 pts/0    Z+   01:19   0:00 [zombie] <defunct>
@@ -520,11 +524,12 @@ sylvain  13529  0.0  0.0      0     0 pts/0    Z+   01:19   0:00 [zombie] <defun
 sylvain  13530  0.0  0.0      0     0 pts/0    Z+   01:19   0:00 [zombie] <defunct>
 sylvain  13531  0.0  0.0      0     0 pts/0    Z+   01:19   0:00 [zombie] <defunct>
 sylvain  13533  0.0  0.1  10460   964 pts/2    S+   01:19   0:00 grep --color=auto -e Z+.*<defunct>
-sylvain@ubuntu$ 
-In Terminal #0, I start by compiling 102-zombie.c and executing zombie which creates 5 zombie processes. In Terminal #1, I display the list of processes and look for lines containing Z+.*<defunct> which catches zombie process.
+sylvain@ubuntu$
+```
 
-**Repo:
+In Terminal #0, I start by compiling `102-zombie.c` and executing `zombie` which creates 5 zombie processes. In Terminal #1, I display the list of processes and look for lines containing `Z+.*<defunct>` which catches zombie process.
 
--  GitHub repository: alx-system_engineering-devops
--  Directory: 0x05-processes_and_signals
--  File: 102-zombie.c
+**Repo:**
+-  GitHub repository: `alx-system_engineering-devops`
+-  Directory: `0x05-processes_and_signals`
+-  File: `102-zombie.c`
