@@ -111,7 +111,7 @@ The highest level: layer 7 which is for application specific communication like 
 
 Keep in mind that the OSI model is a concept, it’s not even tangible. The OSI model doesn’t perform any functions in the networking process. It is a conceptual framework so we can better understand complex interactions that are happening. Most of the functionality in the OSI model exists in all communications systems.
 
-https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/4e6a0ad87a65d7054248.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20221117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221117T202448Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c52a532cca924f7edfa951fdb656e48f33db25266f5d32e77e2cd1b7dc13e87d
+(https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/4e6a0ad87a65d7054248.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20221117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221117T202448Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c52a532cca924f7edfa951fdb656e48f33db25266f5d32e77e2cd1b7dc13e87d)
 
 
 In this project we will mainly focus on:
@@ -120,7 +120,7 @@ In this project we will mainly focus on:
 
 The image bellow describes more concretely how you can relate to every level.
 
-https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/0fc96bd99faa7941b18bcae4c5f90c6acd11791d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20221117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221117T202448Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=0541c8be2f4e1e4aa4ea4236e7b89e4b8946a6a767112d430d01a45a69cca8ee
+(https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/0fc96bd99faa7941b18bcae4c5f90c6acd11791d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20221117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221117T202448Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=0541c8be2f4e1e4aa4ea4236e7b89e4b8946a6a767112d430d01a45a69cca8ee)
 
 
 
@@ -276,7 +276,7 @@ sylvain@ubuntu$
 
 ## 5\. Is the host on the network
 
-https://media.giphy.com/media/uDxkJAVSU7GY8/giphy.gif
+(https://media.giphy.com/media/uDxkJAVSU7GY8/giphy.gif)
 
 The Internet Control Message Protocol (ICMP) is a protocol in the Internet protocol suite. It is used by network devices, to check if other network devices are available on the network. The command `ping` uses ICMP to make sure that a network device remains online or to troubleshoot issues on the network.
 
