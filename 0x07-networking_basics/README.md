@@ -1,220 +1,243 @@
 
 0x07. Networking basics #0
-DevOps
-Network
- By: Sylvain Kalache
- Weight: 1
- Project will start Nov 16, 2022 6:00 AM, must end by Nov 18, 2022 6:00 AM
- will be released at Nov 18, 2022 6:00 AM
- An auto review will be launched at the deadline
+==========================
+
+By: Sylvain Kalache
+
 Resources
-Read or watch:
+---------
 
-OSI model
-Different types of network
-LAN network
-WAN network
-Internet
-MAC address
-What is an IP address
-Private and public address
-IPv4 and IPv6
-Localhost
-TCP and UDP
-TCP/UDP ports List
-What is ping /ICMP
-Positional parameters
-man or help:
+**Read or watch**:
+-  [OSI model](https://alx-intranet.hbtn.io/rltoken/k2uCsynicuNbu1cAQhXqVQ)
+-  [Different types of network](https://alx-intranet.hbtn.io/rltoken/XW3ZGm5Ya_a8XVDXcAKT_A)
+-  [LAN network](https://alx-intranet.hbtn.io/rltoken/en370-Hrwgi_GUvFcg3bKg)
+-  [WAN network](https://alx-intranet.hbtn.io/rltoken/Ah1EKqnINR85lM4P2WnLSw)
+-  [Internet](https://alx-intranet.hbtn.io/rltoken/Lwh9xQxFD4dWh5sIApXI1g)
+-  [MAC address](https://alx-intranet.hbtn.io/rltoken/j-Wp-YRvFTVP04SpIeRzHQ)
+-  [What is an IP address](https://alx-intranet.hbtn.io/rltoken/HaZZvrmGaQ3U7ZLDYgZb6w)
+-  [Private and public address](https://alx-intranet.hbtn.io/rltoken/OPJCZYuWSEXLIZOqU9Uc0A)
+-  [IPv4 and IPv6](https://alx-intranet.hbtn.io/rltoken/M8g-egWLlldTl6Y0QECdwA)
+-  [Localhost](https://alx-intranet.hbtn.io/rltoken/7lj-zoZQ7xFTkj4MTyos_g)
+-  [TCP and UDP](https://alx-intranet.hbtn.io/rltoken/uJbs8E9-FyATfsELpmtTIg)
+-  [TCP/UDP ports List](https://alx-intranet.hbtn.io/rltoken/4PYkqDfOvIZZb9aUPGOOzQ)
+-  [What is ping /ICMP](https://alx-intranet.hbtn.io/rltoken/3zBgO6r2M1Q8lUVt9g8aJw)
+-  [Positional parameters](https://alx-intranet.hbtn.io/rltoken/ZbMHH3jmxFhcrbigVy15iw)
 
-netstat
-ping
+**man or help:**
+-  `netstat`
+-  `ping`
+
+
 Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+-------------------
+At the end of this project, you are expected to be able to [explain to anyone](https://alx-intranet.hbtn.io/rltoken/RowLuXQWMOPFHaboo_3odA), without the help of Google:
 
-OSI Model
-What it is
-How many layers it has
-How it is organized
-What is a LAN
-Typical usage
-Typical geographical size
-What is a WAN
-Typical usage
-Typical geographical size
-What is the Internet
-What is an IP address
-What are the 2 types of IP address
-What is localhost
-What is a subnet
-Why IPv6 was created
-TCP/UDP
-What are the 2 mainly used data transfer protocols for IP (transfer level on the OSI schema)
-What is the main difference between TCP and UDP
-What is a port
-Memorize SSH, HTTP and HTTPS port numbers
-What tool/protocol is often used to check if a device is connected to a network
-Copyright - Plagiarism
-You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
-You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
-You are not allowed to publish any content of this project.
-Any form of plagiarism is strictly forbidden and will result in removal from the program.
+### OSI Model
+-  What it is
+-  How many layers it has
+-  How it is organized
+
+### What is a LAN
+-  Typical usage
+-  Typical geographical size
+
+### What is a WAN
+-  Typical usage
+-  Typical geographical size
+
+### What is the Internet
+-  What is an IP address
+-  What are the 2 types of IP address
+-  What is `localhost`
+-  What is a subnet
+-  Why IPv6 was created
+
+### TCP/UDP
+-  What are the 2 mainly used data transfer protocols for IP (transfer level on the OSI schema)
+-  What is the main difference between TCP and UDP
+-  What is a port
+-  Memorize SSH, HTTP and HTTPS port numbers
+-  What tool/protocol is often used to check if a device is connected to a network
+
+
+### Copyright - Plagiarism
+-  You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
+-  You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
+-  You are not allowed to publish any content of this project.
+-  Any form of plagiarism is strictly forbidden and will result in removal from the program.
+
+
 Requirements
-General
-Allowed editors: vi, vim, emacs
-All your Bash script files will be interpreted on Ubuntu 20.04 LTS
-All your files should end with a new line
-A README.md file, at the root of the folder of the project, is mandatory
-All your Bash script files must be executable
-Your Bash script must pass shellcheck without any error
-The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
-The second line of all your Bash scripts should be a comment explaining what is the script doing
-More Info
+------------
+### General
+
+-  Allowed editors: `vi`, `vim`, `emacs`
+-  All your Bash script files will be interpreted on Ubuntu 20.04 LTS
+-  All your files should end with a new line
+-  A `README.md` file, at the root of the folder of the project, is mandatory
+-  All your Bash script files must be executable
+-  Your Bash script must pass `shellcheck` without any error
+The first line of all your Bash scripts should be exactly `#!/usr/bin/env bash`
 The second line of all your Bash scripts should be a comment explaining what is the script doing
 
+More Info
+---------
+The second line of all your Bash scripts should be a comment explaining what is the script doing
 For multiple choice question type tasks, just type the number of the correct answer in your answer file, add a new line for every new answer, example:
 
 What is the most important position in a software company?
+   1. Project manager
+   2. Backend developer
+   3. System administrator
 
-Project manager
-Backend developer
-System administrator
+```
 sylvain@ubuntu$ cat foo_answer_file
 3
 sylvain@ubuntu$
-Source for question 1 here
+```
+Source for question 1 [here](https://alx-intranet.hbtn.io/rltoken/iEZZ6SemL1HJHjaJOjlPYQ)
+
+
 
 Tasks
-0. OSI model
-mandatory
+-----
+
+### 0\. OSI model
 OSI (Open Systems Interconnection) is an abstract model to describe layered communication and computer network design. The idea is to segregate the different parts of what make communication possible.
 
-It is organized from the lowest level to the highest level:
-
-The lowest level: layer 1 which is for transmission on physical layers with electrical impulse, light or radio signal
+   -  It is organized from the lowest level to the highest level:
+   -  The lowest level: layer 1 which is for transmission on physical layers with electrical impulse, light or radio signal
 The highest level: layer 7 which is for application specific communication like SNMP for emails, HTTP for your web browser, etc
+
 Keep in mind that the OSI model is a concept, it’s not even tangible. The OSI model doesn’t perform any functions in the networking process. It is a conceptual framework so we can better understand complex interactions that are happening. Most of the functionality in the OSI model exists in all communications systems.
 
+(https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/4e6a0ad87a65d7054248.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20221117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221117T202448Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c52a532cca924f7edfa951fdb656e48f33db25266f5d32e77e2cd1b7dc13e87d)
 
 
 In this project we will mainly focus on:
+   -  The Transport layer and especially TCP/UDP
+   -  On the Network layer with IP and ICMP
 
-The Transport layer and especially TCP/UDP
-On the Network layer with IP and ICMP
 The image bellow describes more concretely how you can relate to every level.
+
+(https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/0fc96bd99faa7941b18bcae4c5f90c6acd11791d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20221117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221117T202448Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=0541c8be2f4e1e4aa4ea4236e7b89e4b8946a6a767112d430d01a45a69cca8ee)
 
 
 
 Questions:
 
 What is the OSI model?
+   1. Set of specifications that network hardware manufacturers must respect
+   2. The OSI model is a conceptual model that characterizes the communication functions of a telecommunication system without regard to their underlying internal structure and technology
+   3. The OSI model is a model that characterizes the communication functions of a telecommunication system with a strong regard for their underlying internal structure and technology
 
-Set of specifications that network hardware manufacturers must respect
-The OSI model is a conceptual model that characterizes the communication functions of a telecommunication system without regard to their underlying internal structure and technology
-The OSI model is a model that characterizes the communication functions of a telecommunication system with a strong regard for their underlying internal structure and technology
 How is the OSI model organized?
+   1. Alphabetically
+   2. From the lowest to the highest level
+   3. Randomly
 
-Alphabetically
-From the lowest to the highest level
-Randomly
-Repo:
+**Repo:**
+-  GitHub repository: `alx-system_engineering-devops`
+-  Directory: `0x07-networking_basics`
+-  File: `0-OSI_model`
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x07-networking_basics
-File: 0-OSI_model
-  
-1. Types of network
-mandatory
 
+
+### 1\. Types of network
+
+https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/4b995d4f8078b44afa968d68a98035d2bd7e8fac.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20221117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221117T202448Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=a5f39e628b562528719c229cd4fe30d5259d8ce94f312a602f8fc573d3264e3c
 
 LAN connect local devices together, WAN connects LANs together, and WANs are operating over the Internet.
 
 Questions:
-
 What type of network a computer in local is connected to?
+   1. Internet
+   2. WAN
+   3. LAN
 
-Internet
-WAN
-LAN
 What type of network could connect an office in one building to another office in a building a few streets away?
+   1. Internet
+   2. WAN
+   3. LAN
 
-Internet
-WAN
-LAN
 What network do you use when you browse www.google.com from your smartphone (not connected to the Wifi)?
+   1.Internet
+   2. WAN
+   3. LAN
 
-Internet
-WAN
-LAN
-Repo:
+**Repo:**
+-  GitHub repository: `alx-system_engineering-devops`
+-  Directory: `0x07-networking_basics`
+-  File: `1-types_of_network`
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x07-networking_basics
-File: 1-types_of_network
-  
-2. MAC and IP address
-mandatory
 
+
+### 2\. MAC and IP address
+
+https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/1e348ba3bcbb094b02922f821ffeb3d8c5438b7b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20221117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221117T202448Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=97af057aad0cb4591c76c2f5040ca798d3cd111dfc1b8b6594a1517e2bdce02b
 
 Questions:
-
 What is a MAC address?
+   1. The name of a network interface
+   2. The unique identifier of a network interface
+   3. A network interface
 
-The name of a network interface
-The unique identifier of a network interface
-A network interface
 What is an IP address?
+   1. Is to devices connected to a network what postal address is to houses
+   2. The unique identifier of a network interface
+   3. Is a number that network devices use to connect to networks
 
-Is to devices connected to a network what postal address is to houses
-The unique identifier of a network interface
-Is a number that network devices use to connect to networks
-Repo:
-
-GitHub repository: alx-system_engineering-devops
-Directory: 0x07-networking_basics
-File: 2-MAC_and_IP_address
+**Repo:**
+-  GitHub repository: `alx-system_engineering-devops`
+-  Directory: `0x07-networking_basics`
+-  File: `2-MAC_and_IP_address`
   
-3. UDP and TCP
-mandatory
 
+
+### 3\. UDP and TCP
+
+https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/3d92e3c4a470f8ecf4c73db511fcbbadaa002e1c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20221117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221117T202448Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=5df1cb2cd83eae1e3fa946761875b2632d63c88771acb6eb42266bda7bd8be98
 
 Let’s fill the empty parts in the drawing above.
 
 Questions:
-
 Which statement is correct for the TCP box:
-It is a protocol that is transferring data in a slow way but surely
-It is a protocol that is transferring data in a fast way and might loss data along in the process
-Which statement is correct for the UDP box:
-It is a protocol that is transferring data in a slow way but surely
-It is a protocol that is transferring data in a fast way and might loss data along in the process
-Which statement is correct for the TCP worker:
-Have you received boxes x, y, z?
-May I increase the rate at which I am sending you boxes?
-Repo:
+   1. `It is a protocol that is transferring data in a slow way but surely`
+   2. `It is a protocol that is transferring data in a fast way and might loss data along in the process`
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x07-networking_basics
-File: 3-UDP_and_TCP
+Which statement is correct for the UDP box:
+   1. `It is a protocol that is transferring data in a slow way but surely`
+   2. `It is a protocol that is transferring data in a fast way and might loss data along in the process`
+
+Which statement is correct for the TCP worker:
+   1. `Have you received boxes x, y, z?`
+   2. `May I increase the rate at which I am sending you boxes?`
+
+**Repo:**
+-  GitHub repository: `alx-system_engineering-devops`
+-  Directory: `0x07-networking_basics`
+-  File: `3-UDP_and_TCP`
   
-4. TCP and UDP ports
-mandatory
+
+
+### 4\. TCP and UDP ports
 Once packets have been sent to the right network device using IP using either UDP or TCP as a mode of transportation, it needs to actually enter the network device.
 
 If we continue the comparison of a network device to your house, where IP address is like your postal address, UDP and TCP ports are like the windows and doors of your place. A TCP/UDP network device has 65535 ports. Some of them are officially reserved for a specific usage, some of them are known to be used for a specific usage (but nothing is officially declared) and the rest are free of use.
 
 While the full list of ports should not be memorized, it is important to know the most used ports, let’s start by remembering 3 of them:
 
-22 for SSH
-80 for HTTP
-443 for HTTPS
-Note that a specific IP + port = socket.
+   -  **22** for SSH
+   -  **80** for HTTP
+   -  **443** for HTTPS
+Note that a specific `IP + port = socket`.
 
 Write a Bash script that displays listening ports:
-
-That only shows listening sockets
-That shows the PID and name of the program to which each socket belongs
+   -  That only shows listening sockets
+   -  That shows the PID and name of the program to which each socket belongs
 Example:
 
+```
 sylvain@ubuntu$ sudo ./4-TCP_and_UDP_ports
 Active Internet connections (only servers)
 Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
@@ -242,24 +265,28 @@ unix  2      [ ACC ]     STREAM     LISTENING     8559     835/dbus-daemon     /
 unix  2      [ ACC ]     STREAM     LISTENING     9190     1087/acpid          /var/run/acpid.socket
 unix  2      [ ACC ]     SEQPACKET  LISTENING     7156     378/systemd-udevd   /run/udev/control
 sylvain@ubuntu$
-Repo:
+```
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x07-networking_basics
-File: 4-TCP_and_UDP_ports
+**Repo:**
+-  GitHub repository: `alx-system_engineering-devops`
+-  Directory: `0x07-networking_basics`
+-  File: `4-TCP_and_UDP_ports`
+
 
 
 ## 5\. Is the host on the network
 
-The Internet Control Message Protocol (ICMP) is a protocol in the Internet protocol suite. It is used by network devices, to check if other network devices are available on the network. The command ping uses ICMP to make sure that a network device remains online or to troubleshoot issues on the network.
+(https://media.giphy.com/media/uDxkJAVSU7GY8/giphy.gif)
+
+The Internet Control Message Protocol (ICMP) is a protocol in the Internet protocol suite. It is used by network devices, to check if other network devices are available on the network. The command `ping` uses ICMP to make sure that a network device remains online or to troubleshoot issues on the network.
 
 Write a Bash script that pings an IP address passed as an argument.
 
 Requirements:
 
-Accepts a string as an argument
-Displays `Usage: 5-is_the_host_on_the_network {IP_ADDRESS}` if no argument passed
-Ping the IP 5 times
+   -  Accepts a string as an argument
+   -  Displays `Usage: 5-is_the_host_on_the_network {IP_ADDRESS}` if no argument passed
+   -  Ping the IP 5 times
 Example:
 
 ```
