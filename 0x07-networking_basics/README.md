@@ -111,7 +111,7 @@ The highest level: layer 7 which is for application specific communication like 
 
 Keep in mind that the OSI model is a concept, it’s not even tangible. The OSI model doesn’t perform any functions in the networking process. It is a conceptual framework so we can better understand complex interactions that are happening. Most of the functionality in the OSI model exists in all communications systems.
 
-(https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/4e6a0ad87a65d7054248.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20221117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221117T202448Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c52a532cca924f7edfa951fdb656e48f33db25266f5d32e77e2cd1b7dc13e87d)
+<img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/4e6a0ad87a65d7054248.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20221121%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20221121T065024Z&amp;X-Amz-Expires=86400&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=97c2b3c1141f996c997db4c60917a32bd035da95600f7a2b08467ef057c2d7b0" alt="" loading="lazy" style="">
 
 
 In this project we will mainly focus on:
@@ -145,7 +145,7 @@ How is the OSI model organized?
 
 ### 1\. Types of network
 
-https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/4b995d4f8078b44afa968d68a98035d2bd7e8fac.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20221117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221117T202448Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=a5f39e628b562528719c229cd4fe30d5259d8ce94f312a602f8fc573d3264e3c
+<img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/0fc96bd99faa7941b18bcae4c5f90c6acd11791d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20221121%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20221121T065024Z&amp;X-Amz-Expires=86400&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=88bd1f0559a0ce409cb9647c4093dedf5b92d2357e7fe5bf5b16ed0a6c4278e4" alt="" loading="lazy" style="">
 
 LAN connect local devices together, WAN connects LANs together, and WANs are operating over the Internet.
 
@@ -174,7 +174,7 @@ What network do you use when you browse www.google.com from your smartphone (not
 
 ### 2\. MAC and IP address
 
-https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/1e348ba3bcbb094b02922f821ffeb3d8c5438b7b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20221117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221117T202448Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=97af057aad0cb4591c76c2f5040ca798d3cd111dfc1b8b6594a1517e2bdce02b
+<img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/1e348ba3bcbb094b02922f821ffeb3d8c5438b7b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20221121%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20221121T065024Z&amp;X-Amz-Expires=86400&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=6fc27b3c969547c3486bc434dd0d5660ff173a1c13245cb88d483cf588775073" alt="" loading="lazy" style="">
 
 Questions:
 What is a MAC address?
@@ -196,7 +196,7 @@ What is an IP address?
 
 ### 3\. UDP and TCP
 
-https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/3d92e3c4a470f8ecf4c73db511fcbbadaa002e1c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20221117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221117T202448Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=5df1cb2cd83eae1e3fa946761875b2632d63c88771acb6eb42266bda7bd8be98
+<img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/3d92e3c4a470f8ecf4c73db511fcbbadaa002e1c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20221121%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20221121T065025Z&amp;X-Amz-Expires=86400&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=158ea6fdb8893e2bba97b783e97d59ec3673c6ea962ece29ded11a92dd835702" alt="" loading="lazy" style="">
 
 Let’s fill the empty parts in the drawing above.
 
@@ -276,7 +276,7 @@ sylvain@ubuntu$
 
 ## 5\. Is the host on the network
 
-(https://media.giphy.com/media/uDxkJAVSU7GY8/giphy.gif)
+<img src="https://media.giphy.com/media/uDxkJAVSU7GY8/giphy.gif" alt="" loading="lazy" style="">
 
 The Internet Control Message Protocol (ICMP) is a protocol in the Internet protocol suite. It is used by network devices, to check if other network devices are available on the network. The command `ping` uses ICMP to make sure that a network device remains online or to troubleshoot issues on the network.
 
