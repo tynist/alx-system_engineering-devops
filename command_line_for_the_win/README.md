@@ -5,7 +5,7 @@ Command line for the win
 -  By: Sylvain Kalache, co-founder at Holberton School
 
 
-<img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/324/06AChAO.png" alt="" loading="lazy" style="">
+
 
 Background Context
 ------------------

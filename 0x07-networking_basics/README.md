@@ -120,7 +120,7 @@ In this project we will mainly focus on:
 
 The image bellow describes more concretely how you can relate to every level.
 
-(https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/0fc96bd99faa7941b18bcae4c5f90c6acd11791d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20221117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221117T202448Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=0541c8be2f4e1e4aa4ea4236e7b89e4b8946a6a767112d430d01a45a69cca8ee)
+<img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/0fc96bd99faa7941b18bcae4c5f90c6acd11791d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20221121%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20221121T065024Z&amp;X-Amz-Expires=86400&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=88bd1f0559a0ce409cb9647c4093dedf5b92d2357e7fe5bf5b16ed0a6c4278e4" alt="" loading="lazy" style="">
 
 
 
@@ -145,7 +145,7 @@ How is the OSI model organized?
 
 ### 1\. Types of network
 
-<img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/0fc96bd99faa7941b18bcae4c5f90c6acd11791d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20221121%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20221121T065024Z&amp;X-Amz-Expires=86400&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=88bd1f0559a0ce409cb9647c4093dedf5b92d2357e7fe5bf5b16ed0a6c4278e4" alt="" loading="lazy" style="">
+<img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/4b995d4f8078b44afa968d68a98035d2bd7e8fac.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20221121%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20221121T065024Z&amp;X-Amz-Expires=86400&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=a0ed4ea65f9200081831ff063ad80e64b4acb6d933872395772e4abffba18815" alt="" loading="lazy" style="">
 
 LAN connect local devices together, WAN connects LANs together, and WANs are operating over the Internet.
 
