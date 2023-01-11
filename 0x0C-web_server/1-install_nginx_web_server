@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
-# Install nginx and return a page that contains the string Hello World!
+# Install nginx and print out the string "Hello World!"
+
 sudo apt-get -y update
 sudo apt-get -y install nginx
-echo "Hello World!" > /var/www/html/index.nginx-debian.html
-service nginx start
+sudo ufw allow "Nginx HTTP"
+sudo chown -R $USER:$USER /var/www/html/index.nginx-debian.html
+sudo echo "Hello World!" > /var/www/html/index.nginx-debian.html
+sudo service nginx start
