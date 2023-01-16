@@ -237,9 +237,10 @@ Repo:
 GitHub repository: alx-system_engineering-devops
 Directory: 0x0C-web_server
 File: 2-setup_a_domain_name
-  
-3. Redirection
-mandatory
+
+
+
+### 3\. Redirection
 Readme:
 
 Replace a line with multiple lines with sed
@@ -252,6 +253,7 @@ You answer file should be a Bash script containing commands to automatically con
 Using what you did with 1-install_nginx_web_server, write 3-redirection so that it configures a brand new Ubuntu machine to the requirements asked in this task
 Example:
 
+```
 sylvain@ubuntu$ curl -sI 34.198.248.145/redirect_me/
 HTTP/1.1 301 Moved Permanently
 Server: nginx/1.4.6 (Ubuntu)
@@ -262,14 +264,17 @@ Connection: keep-alive
 Location: https://www.youtube.com/watch?v=QH2-TGUlwu4
 
 sylvain@ubuntu$
-Repo:
+```
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x0C-web_server
-File: 3-redirection
-   
-4. Not found page 404
-mandatory
+**Repo:**
+
+-  GitHub repository: `alx-system_engineering-devops`
+-  Directory: `0x0C-web_server`
+-  File: `3-redirection`
+
+
+
+### 4\. Not found page 404
 Configure your Nginx server to have a custom 404 page that contains the string Ceci n'est pas une page.
 
 Requirements:
