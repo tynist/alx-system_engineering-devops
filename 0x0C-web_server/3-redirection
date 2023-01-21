@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # add stable version of nginx
 
-apt-get update
-apt-get -y install nginx
+sudo apt-get update
+sudo apt-get -y install nginx
 sudo ufw allow 'Nginx HTTP'
 
 mkdir -p /var/www/html/
