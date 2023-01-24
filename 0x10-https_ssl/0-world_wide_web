@@ -1,26 +1,23 @@
 #!/usr/bin/env bash
 # Configure my domain zone:
 
-domain="$1"
-subdomain="$2"
+subdomains_all=( "www" "lb-01" "web-01" "web-02" )
 
-lookup_host() {
-    host_record=$(
-        dig "$1" | grep -A1 'ANSWER SECTION:' | tail -n 1
-    )
+runDig () {
+    subdomain=$1
+    domain=$2
 
-    echo "$host_record" |
-    awk '{print "The subdomain " s " is a " $4 " record and points to " $5}'
+    dig "$subdomain.$domain" | grep -A1 'ANSWER SECTION:' | tail -1 | awk -v s="$subdomain" 'BEGIN { FS = " " } ; { print "The subdomain " s " is a " $4 " record and points to " $5 }'
 }
 
-if [ "$domain" ] && [ "$subdomain" ] ; then
-    host="$subdomain.$domain"
-    lookup_host "$host"
-elif [ "$domain" ] ; then
-    def_subdomains=(www lb-01 web-01 web-02)
-
-    for subdomain in "${def_subdomains[@]}" ; do
-        host="$subdomain.$domain"
-        lookup_host "$host"
+if [ $# -eq 1 ]; then
+    domain="$1"
+    for i in "${subdomains_all[@]}"
+    do
+	runDig "$i" "$domain"
     done
+elif [ $# -eq 2 ]; then
+    domain="$1"
+    subdomain="$2"
+    runDig "$subdomain" "$domain"
 fi
