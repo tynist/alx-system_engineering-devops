@@ -7,8 +7,6 @@ global
 	user haproxy
 	group haproxy
 	daemon
-  	maxconn 2048
-	tune.ssl.default-dh-param 2048
 
 	# Default SSL material locations
 	ca-base /etc/ssl/certs
@@ -21,12 +19,10 @@ global
 
 defaults
         log	global
-	      mode	http
-	      option	httplog
+	mode	http
+	option	httplog
         option	dontlognull
-	      option forwardfor
-	      option http-server-close
-	      option	dontlognull
+	option	dontlognull
         timeout connect 5000
         timeout client  50000
         timeout server  50000
@@ -38,27 +34,17 @@ defaults
 	      errorfile 503 /etc/haproxy/errors/503.http
 	      errorfile 504 /etc/haproxy/errors/504.http
 listen http-in
-	      bind :80
+	bind :80
         balance roundrobin
         server 87635-web-01 100.26.151.146:80 check
         server 87635-web-02 100.25.146.124:80 check
 
-frontend talix.tech-http-frontend
-	      bind *:80
-	      reqadd X-Forwarded-Proto:\ http
-	      default_backend talix.tech-backend
+frontend talix.tech-myfrontend
+	bind *:80
+	bind *:443 ssl crt /etc/haproxy/certs/www.talix.tech.pem
+        default_backend myservers
 
-frontend talix.tech-https-frontend
-	      bind *:443 ssl crt /etc/haproxy/certs/talix.tech.pem
-	      reqadd X-Forwarded-Proto:\ https
-	      acl letsencrypt-acl path_beg /.well-known/acme-challenge/
-	      use_backend letsencrypt-backend if letsencrypt-acl
-        default_backend talix.tech-backend
-
-backend talix.tech-backend
+backend talix.tech-myservers
         balance roundrobin
         server 87635-web-01 100.26.151.146:80 check
         server 87635-web-02 100.25.146.124:80 check
-
-backend letsencrypt-backend
-	      server letsencrypt 127.0.0.1:54321
