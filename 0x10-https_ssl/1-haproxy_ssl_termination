@@ -37,7 +37,8 @@ frontend talix-frontend
 	bind *:80
 	bind *:443 ssl crt /etc/haproxy/certs/www.talix.tech.pem
 	redirect scheme https if !{ ssl_fc }
-        default_backend myservers
+	stats uri /haproxy?stats
+        default_backend web-servers
 
 backend web-servers
         balance roundrobin
