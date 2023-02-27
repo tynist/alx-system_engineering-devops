@@ -163,7 +163,7 @@ None
 Repo:
 
 GitHub repository: alx-system_engineering-devops
-Directory: 0x16-api_advanced
-File: 2-recurse.py
+-  Directory: 0x16-api_advanced
+-  File: 2-recurse.py
  
 Copyright © 2023 ALX, All rights reserved.
